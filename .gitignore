@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+venv/
+.venv/
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Checkpoints / state
+checkpoints/
+*.checkpoint
+*.snapshot
+
+# OpenCode tooling dirs (local config, not for repo)
+.omo/
+.swarm/
+Project/
+
+# Build / artifacts
+dist/
+build/
+*.egg-info/
+
+# macOS
+.DS_Store
+.opencode/
+github-projects/
+foxguard/
+linux-bridge/
+mechkeys/
+token-manager/data/

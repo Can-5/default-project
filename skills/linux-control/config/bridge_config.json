@@ -1,0 +1,9 @@
+{
+  "bridge_timeout": 60,
+  "auto_start_host": false,
+  "log_enabled": true,
+  "host_script": "linux-bridge/bridge_host.py",
+  "client_script": "linux-bridge/bridge_send.py",
+  "supported_types": ["shell", "browser", "screenshot", "pacman"],
+  "browsers": ["firefox", "chromium", "chrome", "brave", "opera"]
+}

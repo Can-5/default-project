@@ -1,0 +1,5 @@
+{
+  "bridge_timeout": 60,
+  "auto_start_host": false,
+  "log_enabled": true
+}
