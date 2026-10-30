@@ -29,6 +29,31 @@ pip install -r requirements.txt
 > ve `DISPLAY` değişkeni ayarlı olmalıdır. Başlıksız (headless) ortamda
 > `--mock` ile test edilebilir.
 
+## Masaüstü Uygulaması ve Başlangıçta Çalıştırma
+
+`mechkeys.desktop` dosyası uygulama menüsünde görünür ve `~/.config/autostart/` kopyası ile oturum açışında otomatik başlar.
+
+### Yükleme (tek seferlik)
+
+```bash
+# Uygulama menüsüne ekle
+cp mechkeys.desktop ~/.local/share/applications/mechkeys.desktop
+chmod +x ~/.local/share/applications/mechkeys.desktop
+
+# Oturum başlangıcında otomatik açılsın
+cp mechkeys.desktop ~/.config/autostart/mechkeys.desktop
+chmod +x ~/.config/autostart/mechkeys.desktop
+```
+
+### Kaldırma
+
+```bash
+rm ~/.local/share/applications/mechkeys.desktop
+rm ~/.config/autostart/mechkeys.desktop
+```
+
+> Not: `mechkeys.desktop` içindeki `Exec` ve `WorkingDirectory` yolları, mechkeys'in kurulu olduğu klasöre işaret ediyor. Klasörü taşıdıysanız bu yolları güncelleyin.
+
 ## Kullanım
 
 ```bash

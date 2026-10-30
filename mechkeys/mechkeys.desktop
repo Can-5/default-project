@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=MechKeys
+GenericName=Mekanik Klavye Ses Simülatörü
+Comment=Klavyedeki her tuş basışında mekanik klavye sesi çalar (yerel, telemetri yok)
+Exec=/usr/bin/python3 /home/ilkaycan/.var/app/ai.opencode.opencode/data/opencode/worktree/44a55e/calm-garden/mechkeys/mechkeys.py
+WorkingDirectory=/home/ilkaycan/.var/app/ai.opencode.opencode/data/opencode/worktree/44a55e/calm-garden/mechkeys
+Icon=input-keyboard
+Terminal=false
+Type=Application
+Categories=Audio;Utility;
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
