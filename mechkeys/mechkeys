@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# mechkeys — masaüstü uygulaması başlatıcısı (yol bağımsız)
+# Bu dosyanın bulunduğu dizini bulup oradaki mechkeys.py'yi çalıştırır.
+set -e
+SCRIPT_DIR="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
+cd "$SCRIPT_DIR"
+exec python3 mechkeys.py "$@"

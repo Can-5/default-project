@@ -35,6 +35,14 @@ pip install -r requirements.txt
 
 ### Yükleme (tek seferlik)
 
+Önerilen: `install.sh` ile (yolları otomatik ayarlar):
+
+```bash
+./install.sh
+```
+
+Ya da el ile:
+
 ```bash
 # Uygulama menüsüne ekle
 cp mechkeys.desktop ~/.local/share/applications/mechkeys.desktop

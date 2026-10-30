@@ -109,8 +109,11 @@ class MechKeys:
         listener = ListenerCls(on_press=self.on_press)
 
         if not listener.start():
-            if not mock and _HAS_PYNPUT:
-                print("[BILGI] X11 ekranı bulunamadı, mock moda geçiliyor.")
+            if not mock:
+                if _HAS_PYNPUT:
+                    print("[BILGI] X11 ekranı bulunamadı, mock moda geçiliyor.")
+                else:
+                    print("[BILGI] pynput kullanılamıyor, mock moda geçiliyor.")
                 listener = MockListener(on_press=self.on_press)
                 listener.start()
             else:
