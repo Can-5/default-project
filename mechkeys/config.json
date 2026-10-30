@@ -1,0 +1,10 @@
+{
+  "switch": "blue",
+  "volume": 0.7,
+  "enabled": true,
+  "modifiers_silent": true,
+  "spacebar_louder": true,
+  "audio_backend": "auto",
+  "sample_rate": 44100,
+  "toggle_hotkey": "f12"
+}

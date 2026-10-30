@@ -1,0 +1,3 @@
+# Mekanik klavye ses örnekleri bu dizinde tutulur.
+# Uygulama ilk çalıştırıldığında pure-Python sentezle WAV dosyaları burada oluşturulur.
+# Harici ses dosyası gerektirmez.

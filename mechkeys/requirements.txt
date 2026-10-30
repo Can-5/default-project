@@ -1,0 +1,4 @@
+# mechkeys — minimal bağımlılıklar
+# Tüm bağımlılıklar seçimeldir; pure-Python ses sentezi stdlib ile çalışır.
+pynput>=1.8.2      # klavye tuş dinleyicisi (Linux/X11 için)
+pygame>=2.5.2      # ses oynatma (isteğe bağlı; yoksa paplay/aplay/ffplay kullanılır)
